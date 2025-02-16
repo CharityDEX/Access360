@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 280 50% 98%;
+  --foreground: 280 10% 10%;
+  --card: 280 50% 98%;
+  --card-foreground: 280 10% 10%;
+  --popover: 280 50% 98%;
+  --popover-foreground: 280 10% 10%;
+  --primary: 270 50% 60%;
+  --primary-foreground: 270 10% 98%;
+  --secondary: 320 50% 95%;
+  --secondary-foreground: 320 10% 10%;
+  --muted: 280 30% 90%;
+  --muted-foreground: 280 10% 40%;
+  --accent: 320 50% 90%;
+  --accent-foreground: 320 10% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 280 30% 90%;
+  --input: 280 30% 90%;
+  --ring: 280 60% 50%;
+  --radius: 1rem;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  color: #1a202c; /* Dark gray for better contrast */
+}
+
+.gradient-background {
+  background: linear-gradient(135deg, #f8e1ff 0%, #e1e5ff 50%, #f8e1ff 100%);
+  min-height: 100vh;
+}
+
+.title-card {
+  background: linear-gradient(135deg, #6b46c1 0%, #4c1d95 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-primary-gradient {
+  background: linear-gradient(135deg, #4a5568 0%, #1a202c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.soft-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loading-animation {
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
