@@ -1,4 +1,4 @@
-# Hack For Humanity #1 Winning Project (out of 335 contestants)
+# Hack For Humanity #1 Winning Project (335 participants)
 
 <img width="976" alt="6" src="https://github.com/user-attachments/assets/01641522-5179-41cc-b298-7c794470886b" />
 
